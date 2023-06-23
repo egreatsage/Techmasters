@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from './page.module.css'
+import DarkModeTogle from '../DarkModeTogle/DarkModeTogle'
 const Navbar = () => {
     const links =[
         {
@@ -39,6 +40,7 @@ const Navbar = () => {
     <div className={styles.container}>
         <Link className={styles.logo} href={'/'}>Techmasters</Link>
         <div className={styles.links}>
+            <DarkModeTogle/>
             {links.map((link)=>(
                 <Link className={styles.link} key={link.id} href={link.url}>
                     {link.title}
