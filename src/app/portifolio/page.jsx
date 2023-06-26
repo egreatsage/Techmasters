@@ -10,10 +10,10 @@ const Portifolio = () => {
           <span className={styles.title}>Illustrations</span>
         </Link>
         <Link href='/portifolio/websites' className={styles.item}>
-          <span className={styles.title}>Illustrations</span>
+          <span className={styles.title}>Websites</span>
         </Link>
         <Link href='/portifolio/applications' className={styles.item}>
-          <span className={styles.title}>Illustrations</span>
+          <span className={styles.title}>Applications</span>
         </Link>
       </div>
     </div>

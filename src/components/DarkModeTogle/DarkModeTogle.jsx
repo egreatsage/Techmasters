@@ -3,7 +3,7 @@
 import React, { useContext } from 'react'
 import styles from './darkmode.module.css'
 import Image from 'next/image'
-import { ThemeContext } from '../../../context/ThemeContext'
+import { ThemeContext } from '../../context/ThemeContext'
 const DarkModeTogle = () => {
 //  const {toggle,mode} = useContext(ThemeContext)
   return (

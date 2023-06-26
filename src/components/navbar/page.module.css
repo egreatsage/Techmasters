@@ -13,10 +13,20 @@
     align-items: center;
     gap: 20px;
 }
+
 .logout{
     padding: 5px;
     border: none;
     background-color: #53c28b;
     color: white;
     border-radius: 3px;
+}
+@media only screen and (max-width: 900px) {
+    .links{
+        display: none;
+    }
+    .menu{
+        display: none;
+        color: white;
+    }
 }
